@@ -3,3 +3,4 @@ a simple python class for investigating the security of simplex locks with n num
 takes command line arguments for number of buttons and seconds per guess
 simplex_lock.py [-h] [--list] buttons
 example: python simplex.py 5 --seconds-per-guess 1
+optional argument to give worst case ie correct on the last guess: --worst-case.  default is average case.  
